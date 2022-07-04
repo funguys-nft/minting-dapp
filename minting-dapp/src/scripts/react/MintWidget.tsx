@@ -2,6 +2,8 @@ import { utils, BigNumber } from 'ethers';
 import React from 'react';
 import NetworkConfigInterface from '../../../../smart-contract/lib/NetworkConfigInterface';
 
+
+
 interface Props {
   networkConfig: NetworkConfigInterface;
   maxSupply: number;

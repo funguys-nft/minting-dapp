@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      background:{
+        'gray-100': '#f7fafc',
+      },
       colors: {
         // General
         page: {

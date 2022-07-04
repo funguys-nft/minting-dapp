@@ -1,15 +1,20 @@
+
 body {
   @apply p-6;
-  @apply min-h-screen;
+  //@apply min-h-screen;
 
   @apply font-sans;
 
   // Simple background with color gradient
-  @apply bg-gradient-to-b from-page-from_bg via-page-from_bg to-page-to_bg;
+  //@apply bg-gradient-to-b from-page-from_bg via-page-from_bg to-page-to_bg;
 
   // Fullscreen background image example
-  //background-image: url('../../images/background.jpg');
-  //@apply bg-center bg-cover bg-fixed;
+  background-image: url('../../images/log5.png');
+  @apply bg-center bg-cover bg-no-repeat bg-fixed;
+
+  
+
+  
 }
 
 a, a:link, a:visited {
@@ -27,12 +32,21 @@ strong {
 }
 
 main {
-  @apply flex flex-col;
+ // background-image: url('../../images/log2.png');
+ // @apply flex flex-col;
+  @apply  bg-no-repeat bg-cover bg-center;
+  
+  @apply w-full;
+  @apply h-fit;
+  //@apply w-fit;
+ 
+  
 }
+
 
 #logo {
   @apply m-auto;
-  @apply w-full;
+  @apply w-fit;
   @apply max-w-md;
 }
 
